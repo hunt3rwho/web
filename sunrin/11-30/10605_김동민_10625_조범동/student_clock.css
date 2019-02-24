@@ -1,0 +1,17 @@
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+#clockDisplay{
+
+    width: 70%;
+    
+    background-color: #000;
+    border:#999 2px inset;
+    padding: 6px;
+    color:#0ff;
+    font-family: 'Jeju Gothic', serif;
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: block;
+    margin-left: 10%;
+    margin-top: 5%;
+}

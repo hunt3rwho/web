@@ -1,0 +1,75 @@
+﻿
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Who am I?</title>
+		<link rel="stylesheet" type="text/css" href="index.css" />
+		<script src="./jquery-1.11.0.min.js"></script>
+		<meta charset="UTF-8"/>
+	</head>
+	<body>
+		<div id="title"><h1>누군가는 찾아올 나의 자기 소개서</h1><img src="img/tf141.jpg" /></div>
+		<ul class="tabs">	
+		<li class="active" rel="tab1">프로필</li>
+		<li rel="tab2">난 누구?</li>
+		<li rel="tab3">봉사활동</li>
+		<li rel="tab4">동아리</li>
+		<br />
+	    </ul>
+		<div class="tab_container">
+			
+			<div id="tab1" class="tab_content">
+			<img src="img/soap.jpg">
+			  이름 : 조범동<br />
+			<p>  주소 : 서울시에 있는 25개 구 중 하나</p>
+			<p>  학교 : 선린 인터넷 고등학교</p>
+			  내가 쓰는 별명 : hunter<br />
+	</div><!--tab1-->
+		 <div id="tab2" class="tab_content"> 
+		
+
+			<p>장점 : 체격이 좋아 잘 지치지도 않고, 끈기가 있어서 쉽게 포기하지 않는다.<br />
+				그리고 친절하며, 습득력이 좋아서 빨리 배울수 있다.</p>
+			
+			<p>단점 : 발표나 대화를 할때 말이 빠르고 많이 더듬지만 <br />
+				책을 보고, 천천히 말하면서 극복해 나갈 것이다.</p>
+			
+			왜 내가 쓰는 별명이 hunter인 이유 : 1. 사냥꾼의 의미로 목표를 조준하고 사냥하고 싶다는 뜻<br />
+				2.레프트 4 데드라는 게임에서 나오는 특수 좀비 이름
+	</div><!--tab2-->
+	<div id="tab3" class="tab_content">
+		<img src="img/hantall.jpg"> 
+		
+		 <p>내가 자주하는 봉사 활동은 한톨 나눔 축제이다.</p>
+		 	행사 날짜는 현충일에 하며, 중,고등학생들을 위한 봉사활동이다.<br />
+		 	이 봉사 활동은 아프리카에 있는 기아들을 위해서 공책이나 신발을 만들어 주는 활동이다.<br />
+			<p>내가 이 행사를 자주 하는 이유는 아프리카에 있는 아이들을 위해서 만들어 줄 수 있는게 있다는거에 행복 하기 때문이다.</p>	
+		 <p> </p>
+	</div><!--tab3-->
+	<div id="tab4" class="tab_content"> 
+		
+		 내가 속한 동아리는 루시올라(도서부)이다.<br />
+		여기서 부장 선배랑 1학년 부원들이랑 점심 시작부터 12시 50분까지 보게되며 2학년 선배들은 그 이후에 본다.<br	/>
+		<p>같은 학년의 부원 모두 다 친하고, 재밌게 논다.<del>(밥을 같이 먹을수 밖에 없으니깐 자동으로 친해질수 밖에 없음)</del></p>
+		<p>도서부 하면서 힘든 점은 전공책에 관련된 책들이다. 왜냐면, 정말 두껍고 순서가 틀려서 그 책장을 갈아 엎을려면 엄청난 고생들이 필요하기 때문이다.</p>
+		
+	</div>
+	</div>
+	
+	
+	<script>
+	
+	
+	$(".tabs > li").on("mouseover",function(){
+	
+		$(".tab_content").each(function(a,b){
+			$(this).hide();
+		});
+		$("#" + $(this).attr("rel")).fadeIn();
+	
+	});
+	
+	</script>
+	
+	</body>
+</html>

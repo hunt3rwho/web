@@ -1,0 +1,92 @@
+h1{
+	position: absolute;
+    text-align:center;
+    margin-left: 900px;
+    margin-top: 6px;
+    font : bold 80px/100% Arial, Helvetica, sans-serif;
+    color : #fff;
+    text-shadow: 1px -10px 10px rgba(0,0,0,0.7),
+                 1px -8px 3px rgba(0,0,0,0.3);
+    -webkit-animation-duration: 0.7s;
+  -webkit-animation-name: slidein;
+   -webkit-animation-direction: alternate;
+   -webkit-animation-iteration-count: 1;
+	
+}
+html { 
+  background: url(img/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  @font-face {
+  font-family: 'Counter-Strike';
+  src: url('http://www.fontsaddict.com/fontface/counter-strike.ttf');
+}
+      
+}
+img {
+	width: 300px;
+	height: 300px;
+	margin-top: 200px;
+	margin-left: 70px;
+	opacity: 0.8;
+}
+
+#index img:hover{
+
+	opacity: 1;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+
+@-webkit-keyframes slidein {
+      from {
+        margin-left:-1000px;
+        width:100%
+      }
+      
+      to {
+        margin-left:365px;
+        width:100%;
+      }
+    }
+    .img1{
+    	display: inline;
+    	width: 300px;
+    	height: 300px;
+    }
+
+    .img2{
+    	display: inline;
+    	width: 300px;
+    	height: 300px;
+    }
+
+    .img3{
+    	display: inline;
+    	width: 300px;
+    	height: 300px;
+    }
+
+    .img4{
+    	display: inline;
+    	width: 300px;
+    	height: 300px;
+    }
+
+    h1:hover{
+    	transition: all 0.4s ease-in-out;
+    	color:rgba(34,57,88,1);
+    	text-shadow: 1px -10px 10px rgba(0,0,0,0.7),
+				 1px -8px 3px rgba(0,0,0,0.3);
+    	;
+
+      audio:source{
+        margin-left:200px;
+        display: inline;
+      }
+      #music{
+        margin-right: 6px;
+      }

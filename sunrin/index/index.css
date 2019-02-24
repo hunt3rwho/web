@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+h1{
+    color: black; text-align: center; font-size: 70pt;
+    font-family: 'Nanum Gothic Coding', serif;
+}
+
+#std{display:block;
+    width:370px;
+    height:370px;
+    border-radius:370px;
+    font-size:20px;
+    color:#fff;
+    line-height:100px;
+    text-shadow:0 1px 0 #666;
+    text-align:center;
+    text-decoration:none;
+    box-shadow:1px 1px 2px #000;
+    background:#f57474;
+    opacity:0.95;
+    margin-left: 0px;
+    margin-top: 80px;
+    font-size:30px;
+}
+#std:hover{
+    color: #000;
+    text-shadow:0 0 1px #666;
+    text-decoration:none;
+    box-shadow:0 0 50px #222 inset;
+    opacity:1;
+    background: #ca1919;
+    cursor: pointer;
+}
+
+#text1{
+    font-size: 25px;
+}
+
+body{
+    font-family: '맑은 고딕', sans-serif;
+}
+
+#parent{display:block;
+    width:370px;
+    height:370px;
+    border-radius:370px;
+    font-size:20px;
+    color:#fff;
+    line-height:100px;
+    text-shadow:0 1px 0 #666;
+    text-align:center;
+    text-decoration:none;
+    box-shadow:1px 1px 2px #000;
+    background:#3e6ef7;
+    opacity:0.95;
+    margin-left: 450px;
+    margin-top: -370px;
+    font-size: 30px;
+    
+}
+#parent:hover{
+    color: #000;
+    text-shadow:0 0 1px #666;
+    text-decoration:none;
+    box-shadow:0 0 50px #222 inset;
+    opacity:1;
+    background: #0f44d9;
+    cursor: pointer;
+}
+#text2{
+    font-size: 25px;
+}
+
+#common{display:block;
+    width:370px;
+    height:370px;
+    border-radius:370px;
+    font-size:20px;
+    color:#fff;
+    line-height:100px;
+    text-shadow:0 1px 0 #666;
+    text-align:center;
+    text-decoration:none;
+    box-shadow:1px 1px 2px #000;
+    background:#8eee82;
+    opacity:0.95;
+    margin-top: -370px;
+    margin-left: 890px;
+    font-size: 30px;
+}
+#common:hover{
+    color: #000;
+    text-shadow:0 0 1px #666;
+    text-decoration:none;
+    box-shadow:0 0 50px #222 inset;
+    opacity:1;
+    background: #13d946;
+    cursor: pointer;
+}
+
+#text3{
+    font-size: 25px;
+}

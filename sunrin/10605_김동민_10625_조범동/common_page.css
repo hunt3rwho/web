@@ -1,0 +1,123 @@
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+body
+{
+    margin: 0;
+    min-width: 1300px;
+    min-height: 660px;
+    background-color: #DDD;
+    font-family: 'Jeju Gothic', serif;
+}
+
+#logo_white
+{
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+div.head
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 52px;
+    background: rgb(0,100,0);
+    font-size: 32px;
+    color: white;
+}
+
+.cat
+{
+    width: auto;
+    height: 20px;
+    padding: 16px 5px;
+    font-size: 20px;
+    float: right;
+    text-decoration: none;
+    color: black;
+}
+
+#stu
+{
+    background-color: #93D1FF;
+}
+
+#par
+{
+    background-color: #FFD9D9;
+}
+
+#com
+{
+    background-color: #BAE18F;
+}
+
+#slider
+{
+    position: fixed;
+    padding-top: 320px; 
+    width: 30px;
+    height: 50%;
+    background-color: #DDD;
+    border-left: 2px solid #BBB;
+    border-right: 2px solid #BBB;
+    font-size: 30px;
+    color: #BBB;
+}
+
+.contents
+{
+    margin: 52px 0 0 30px;
+    width: auto;
+    height: 660px;
+    background-color: #BAE18F;
+}
+
+.nav
+{
+    display: inline-block;
+    margin: 2% 0 0 2%;
+    background-color: #a3d966;
+    border: 3px solid #8cc947;
+}
+
+#bottom
+{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 5%;
+    background: rgb(0,100,0);
+}
+
+#time
+{
+    width: 46%;
+    height: 40%;
+}
+
+#map
+{
+    width: 46%; 
+    height: 40%;
+}
+
+#info
+{
+    width: 30%;
+    height: 40%;
+}
+
+#event
+{
+    width: 30%;
+    height: 40%;
+}
+
+#introduce
+{
+    width: 30%;
+    height: 40%;
+}
+

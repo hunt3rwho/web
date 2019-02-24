@@ -1,0 +1,167 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size:0.75em;
+    color:#333;
+    background-image: url("http://postfiles4.naver.net/20140528_67/qjaehd2023_1401269830754eVnxA_JPEG/call_of_duty_ghosts-1920x1080.jpg?type=w3");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    background-size:cover;
+    padding
+}
+ul.tabs {
+        margin-left: 42px;
+        padding: 0;
+        float: left;
+        list-style: none;
+        height: 32px;
+        border-bottom: 1px solid #999999;
+        border-left: 1px solid #999999;
+        width: 100%;
+        opacity: 0.5;
+    }
+    ul.tabs li {
+        float: left;
+        margin: 0;
+        cursor: pointer;
+        padding: 0px 21px ;
+        height: 31px;
+        line-height: 31px;
+        border: 1px solid #999999;
+        border-left: none;
+        font-weight: bold;
+        background: #EEEEEE;
+        overflow: hidden;
+        position: relative;
+    }
+    ul.tabs li:hover {
+        background: #CCCCCC;
+    }   
+    ul.tabs li:active{
+        background: #FFFFFF;
+        border-bottom: 1px solid #FFFFFF;
+        display: inline;
+
+    }
+    .tab_container {
+        border: 1px solid #999999;
+        border-top: none;
+        clear: both;
+        float: left; 
+        width: 100%;
+        background: #FFFFFF;
+    }
+    .tab_content {
+        padding: 20px;
+        font-size: 1.2em;
+        display: none;
+    }
+
+#title {
+    position: relative;
+    top : -10px;
+    left: -10px;
+    display: block;
+    width: 102%;
+    height: 80px;
+    background-color: #575757;
+    opacity: 0.7;
+}
+
+#title h1{
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    margin-left: 0px;
+    margin-bottom: -9px;
+    font : bold 50px/100% Arial, Helvetica, sans-serif;
+    color : #fff;
+    text-shadow: 1px -10px 10px rgba(0,0,0,0.7),
+                 1px -8px 3px rgba(0,0,0,0.3);
+}
+
+#title h1:hover{
+    color: rgba(146,146,146,1);
+    text-shadow: 1px -5px 4px rgba(255,255,255,0.7),
+                 1px -2px 2px rgba(255,255,255,1);
+    transition: all 0.4s ease-in-out;
+}
+
+#tab1 img{
+    float:left;
+    width: 200px;
+    height: 200px;
+    padding-right:3px;
+}
+
+#tab1{
+    font-size:large;
+}
+
+#tab2{
+	font-size: large;
+}
+#tab3 img{
+    float:left;
+    width: 200px;
+    height: 200px;
+}
+
+#tab3{
+    font-size: large;
+}
+#tab4{
+    font-size: large;
+}
+.tab_container{
+	opacity:0.5 ;
+	padding-left:15px;
+	width:1600px;
+	height:200px;
+	margin-left: 42px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.tab_container :hover{
+	opacity:1;
+	background-color: #16bbf1;
+	transition: all 0.3s ease-out;
+}
+
+#title img{
+	margin-left: 1200px;
+	width: 70px;
+	height: 70px;
+	border-radius: 60px;
+    margin-top: 5px;
+
+      -webkit-animation-duration: 3s;
+      -webkit-animation-name: slidein;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+    }
+    
+    
+    @-webkit-keyframes slidein {
+      from {
+        margin-left:100%;
+        width:70px;
+        height: 70px;
+      }
+      
+      75% {
+        
+        margin-left:70%;
+        width:70px;
+        height: 70px;
+      }
+      
+      to {
+        margin-left:60%;
+        width:70px;
+        height: 70px;
+      }
+    }
+    }
+
